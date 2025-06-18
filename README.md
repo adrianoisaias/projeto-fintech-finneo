@@ -36,7 +36,7 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 Por ser um projeto de front-end estático, não há necessidade de instalação. Siga os passos abaixo:
 
-1.  Clone este repositório: `git clone https://github.com/seu-usuario/projeto-fintech-finneo.git`
+1.  Clone este repositório: `git clone https://github.com/adrianoisaias/projeto-fintech-finneo`
 2.  Navegue até a pasta do projeto.
 3.  Abra o arquivo `index.html` em seu navegador de preferência.
 
