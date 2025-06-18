@@ -1,0 +1,107 @@
+:root {
+    --primary-blue: #4A90E2;      
+    --secondary-blue: #3a72b5;    
+    --background-color: #F7F8FC;  
+    --text-color: #333;           
+    --text-color-muted: #777;     
+    --card-bg-color: #FFFFFF;     
+    --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Poppins', sans-serif; 
+    color: var(--text-color);
+}
+
+.navbar {
+    background-color: var(--card-bg-color) !important;
+    border-bottom: 1px solid #EAECEF;
+}
+
+.navbar .nav-link {
+    color: var(--text-color-muted);
+    font-weight: 400;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: var(--primary-blue);
+    font-weight: 600;
+}
+
+.card-custom {
+    background-color: var(--card-bg-color);
+    border: none;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    padding: 1.5rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.main-value {
+    color: var(--primary-blue);
+    margin-top: 0.5rem;
+}
+
+.text-muted {
+    color: var(--text-color-muted) !important;
+}
+
+.progress {
+    background-color: #EAECEF;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: var(--primary-blue);
+    border-radius: 10px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #EAECEF; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.list-group-item:first-child {
+    border-top: none; 
+}
+
+.transaction-list .list-group-item {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.transaction-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.text-danger {
+    color: #E53935 !important;
+}
+
+.goal-item:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.logo-img {
+    height: 70px; 
+    width: auto;  
+}
